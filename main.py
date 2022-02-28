@@ -31,13 +31,6 @@ def timer(h,m):
 
 #UI setup-----------------------------------------------------------------
 
-def create_circle(x, y, r, canvasName): #center coordinates, radius
-    x0 = x - r
-    y0 = y - r
-    x1 = x + r
-    y1 = y + r
-    return canvasName.create_oval(x0, y0, x1, y1)
-
 
 window=Tk()
 window.config(width=WIN_WIDTH,height=WIN_HEIGHT,bg="black",highlightthickness=0,padx=50,pady=50)
